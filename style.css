@@ -1,0 +1,12 @@
+#first{
+    color: purple;
+    font-size: 32px;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.plain{
+    font-size: 32px;
+    background-color: azure;
+    color: blue;
+}
