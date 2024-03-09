@@ -151,6 +151,7 @@ footer .social img{
     font-family: 'Barlow Condensed', Arial, sans-serif;
     font-size: 2em;
     margin-top: 10px;
+
 }
 
 h2{
@@ -199,6 +200,15 @@ h4{
     grid-row: 2/3;
 }
 
+.grid-item{
+    grid-column: 1/11;
+    text-align: center;
+}
+
+#river-msg{
+    text-align: center;
+}
+
 .card-img{
     border: 10px solid #48cae4;
     transition: .5s;
@@ -221,6 +231,47 @@ h4{
 
 }
 
+#riversbig{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+
+#river-box{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+.river-title{
+    color:#48cae4;
+    font-family: 'Barlow Condensed', Arial, sans-serif;
+    font-size: 5em;
+    margin-top: 10px;
+}
+
+#river{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-auto-rows: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+
+#river-img{
+    width: 100%
+}
+
+#river-box{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#river-msg{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 100px;
+}
 main section img{
     box-sizing: border-box;
 }
